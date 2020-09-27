@@ -21,6 +21,9 @@ const Sitebar = () => {
                 <NavItem>
                     <Link to="/todo" className="site-link">ToDo Challenge</Link>
                 </NavItem>
+                <NavItem>
+                    <Link to="/weather" className="site-link">Weather Challenge</Link>
+                </NavItem>
             </Nav>
         </Navbar>
     );
